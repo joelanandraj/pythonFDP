@@ -590,11 +590,14 @@ Statements are executed one at a time, in order from top to bottom.
 
 A function is defined before its first use. Function definitions do not alter
 the flow of execution of the program as functions don't run until they are
-called. A function call is like a detour in the flow of execution. Instead of
-going to the next statement, the flow jumps to the body of the function, runs
-the statements there, and then comes back to pick up where it left off. To put
+called(refer the below figure). A function call is like a detour in the flow of execution. 
+Instead of going to the next statement, the flow jumps to the body of the function, 
+runs the statements there, and then comes back to pick up where it left off. To put
 it together, when you read a program, you don't always want to read from top to
-bottom. Sometimes it makes more sense if you follow the flow of execution.
+bottom. Sometimes it makes more sense if you follow the flow of execution. The below 
+image gives your a better clarity on the things that you read now.
+
+![alt text](Unit2-img/Executionflow.gif)
 
 **2.7.3 PARAMETERS AND ARGUMENTS**
 
